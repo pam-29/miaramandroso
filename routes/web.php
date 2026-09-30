@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProjetController;
 use Illuminate\Support\Facades\Route;
 
-Route::inertia('/', 'welcome')->name('home');
+Route::get('/', [ProjetController::class, 'show'])->name('home');
