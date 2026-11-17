@@ -1,0 +1,12 @@
+.outerBoxPercentage{
+    height: 20px;
+    background-color: #B3B3B3;
+    max-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.innerBoxPercentage{
+    height: 20px;
+    background-color: #79DC56;
+}
